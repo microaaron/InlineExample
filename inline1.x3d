@@ -1,0 +1,13 @@
+<X3D profile="Immersive" version="3.2">
+  <Scene> 
+    <Transform translation="2.5 0 0" DEF="box1"> 
+      <Shape>
+        <Box size="1 1 1"/>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+      </Shape>
+    </Transform>
+    <Inline DEF='I1' url="inline2.x3d"/>
+  </Scene>
+</X3D>
